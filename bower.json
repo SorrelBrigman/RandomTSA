@@ -1,0 +1,17 @@
+{
+  "name": "RandomTSA",
+  "homepage": "https://github.com/SorrelBrigman/RandomTSA",
+  "authors": [
+    "Sorrel Brigman <sorrel.k@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
