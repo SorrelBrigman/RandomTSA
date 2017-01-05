@@ -9,12 +9,15 @@ var arrowImages = [rightArrow, leftArrow];
 
 function pickImage() {
   var index;
+  //randomly take a number between 1 and 2
   index = Math.floor(Math.random() * (2)) + 1
+  //converse the number to being between 0 and 1
   index = index - 1;
-  console.log(index)
+  //use the random number to choose which image randomly from the array
   var choosenImage = arrowImages[index];
+  //plug the selected image into an html tag
   var imageHTML = `<img src=${choosenImage} alt="" width="500" height="500">`
-  console.log(imageHTML)
+  //add imageHTML to the page
   $(".arrow").html(imageHTML);
 
 }
